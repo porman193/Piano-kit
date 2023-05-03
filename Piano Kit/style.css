@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(sounds/pexels-cottonbro-studio-4709825.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border: solid 5px rgba(82, 49, 11, 0.932);
+    backdrop-filter: blur(2px);
+    opacity: 0.8;
+    border-radius: 5%;
+}
+.sharpKeys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.1) ;
+    border: solid 5px rgba(82, 49, 11, 0.932);
+    backdrop-filter: blur(2px);
+    opacity: 0.8;
+    margin: 10px;
+    border-radius: 5%;
+}
+.key{
+    width: 61px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    margin: 20px;
+    border: solid 2px black;
+    transition: all 0.07s;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.671) ;
+}
+
+.sharpKeys .key{
+    height: 200px;
+    background-color: black;
+    color: azure;
+    text-shadow: 2px 2px 10px rgba(245, 245, 245, 0.582);
+}
+.play{
+    transform: scale(1.1);
+    border: 3px solid burlywood;
+    font-style: italic;
+    
+}
+
+kbd{
+    font-size: x-large;
+    margin-bottom: 125px;
+}
+
+span{
+    font-size: medium;
+}
